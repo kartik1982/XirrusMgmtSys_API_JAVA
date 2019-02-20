@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TS_Tenants" duration-ms="9063" started-at="2019-02-20T02:04:28Z" finished-at="2019-02-20T02:04:37Z">
+    <groups>
+    </groups>
+    <test name="TC_Add_Tenant" duration-ms="3880" started-at="2019-02-20T02:04:28Z" finished-at="2019-02-20T02:04:32Z">
+      <class name="TS_Tenants.TC_Add_Tenant">
+        <test-method status="PASS" signature="add_tenant()[pri:1, instance:TS_Tenants.TC_Add_Tenant@48eff760]" name="add_tenant" duration-ms="3219" started-at="2019-02-20T02:04:28Z" finished-at="2019-02-20T02:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_tenant -->
+        <test-method status="PASS" signature="delete_tenant()[pri:2, instance:TS_Tenants.TC_Add_Tenant@48eff760]" name="delete_tenant" duration-ms="645" started-at="2019-02-20T02:04:31Z" finished-at="2019-02-20T02:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_tenant -->
+      </class> <!-- TS_Tenants.TC_Add_Tenant -->
+    </test> <!-- TC_Add_Tenant -->
+    <test name="TC_Add_Arrays_to_Tenant" duration-ms="4563" started-at="2019-02-20T02:04:32Z" finished-at="2019-02-20T02:04:36Z">
+      <class name="TS_Tenants.TC_Add_Arrays_to_Tenant">
+        <test-method status="PASS" signature="add_tenant()[pri:1, instance:TS_Tenants.TC_Add_Arrays_to_Tenant@4f933fd1]" name="add_tenant" duration-ms="2671" started-at="2019-02-20T02:04:32Z" finished-at="2019-02-20T02:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_tenant -->
+        <test-method status="PASS" signature="verify_add_Arrays_To_Tenant()[pri:2, instance:TS_Tenants.TC_Add_Arrays_to_Tenant@4f933fd1]" name="verify_add_Arrays_To_Tenant" duration-ms="594" started-at="2019-02-20T02:04:34Z" finished-at="2019-02-20T02:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_add_Arrays_To_Tenant -->
+        <test-method status="PASS" signature="delete_array_for_tenant()[pri:3, instance:TS_Tenants.TC_Add_Arrays_to_Tenant@4f933fd1]" name="delete_array_for_tenant" duration-ms="633" started-at="2019-02-20T02:04:35Z" finished-at="2019-02-20T02:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_array_for_tenant -->
+        <test-method status="PASS" signature="delete_tenant()[pri:4, instance:TS_Tenants.TC_Add_Arrays_to_Tenant@4f933fd1]" name="delete_tenant" duration-ms="665" started-at="2019-02-20T02:04:36Z" finished-at="2019-02-20T02:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_tenant -->
+      </class> <!-- TS_Tenants.TC_Add_Arrays_to_Tenant -->
+    </test> <!-- TC_Add_Arrays_to_Tenant -->
+    <test name="TC_Get_Current_Tenant" duration-ms="514" started-at="2019-02-20T02:04:36Z" finished-at="2019-02-20T02:04:37Z">
+      <class name="TS_Tenants.TC_Get_Current_Tenant">
+        <test-method status="PASS" signature="initialize_all_variables()[pri:0, instance:TS_Tenants.TC_Get_Current_Tenant@68be2bc2]" name="initialize_all_variables" is-config="true" duration-ms="3922" started-at="2019-02-20T02:04:24Z" finished-at="2019-02-20T02:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize_all_variables -->
+        <test-method status="PASS" signature="verify_get_current_tenant_api()[pri:0, instance:TS_Tenants.TC_Get_Current_Tenant@68be2bc2]" name="verify_get_current_tenant_api" duration-ms="514" started-at="2019-02-20T02:04:36Z" finished-at="2019-02-20T02:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_get_current_tenant_api -->
+      </class> <!-- TS_Tenants.TC_Get_Current_Tenant -->
+    </test> <!-- TC_Get_Current_Tenant -->
+  </suite> <!-- TS_Tenants -->
+  <suite name="XMSC API Test suites" duration-ms="0" started-at="2019-02-20T02:04:47Z" finished-at="2019-02-20T02:04:47Z">
+    <groups>
+    </groups>
+  </suite> <!-- XMSC API Test suites -->
+  <suite name="TS_Users" duration-ms="8258" started-at="2019-02-20T02:04:37Z" finished-at="2019-02-20T02:04:46Z">
+    <groups>
+    </groups>
+    <test name="TC_Add_Tenant" duration-ms="3111" started-at="2019-02-20T02:04:37Z" finished-at="2019-02-20T02:04:41Z">
+      <class name="TS_Users.TC_Add_Tenant">
+        <test-method status="PASS" signature="add_tenant()[pri:1, instance:TS_Users.TC_Add_Tenant@457e2f02]" name="add_tenant" duration-ms="2506" started-at="2019-02-20T02:04:37Z" finished-at="2019-02-20T02:04:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_tenant -->
+        <test-method status="PASS" signature="delete_tenant()[pri:2, instance:TS_Users.TC_Add_Tenant@457e2f02]" name="delete_tenant" duration-ms="605" started-at="2019-02-20T02:04:40Z" finished-at="2019-02-20T02:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_tenant -->
+      </class> <!-- TS_Users.TC_Add_Tenant -->
+    </test> <!-- TC_Add_Tenant -->
+    <test name="TC_Add_Arrays_to_Tenant" duration-ms="4570" started-at="2019-02-20T02:04:41Z" finished-at="2019-02-20T02:04:45Z">
+      <class name="TS_Users.TC_Add_Arrays_to_Tenant">
+        <test-method status="PASS" signature="add_tenant()[pri:1, instance:TS_Users.TC_Add_Arrays_to_Tenant@cc285f4]" name="add_tenant" duration-ms="2773" started-at="2019-02-20T02:04:41Z" finished-at="2019-02-20T02:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_tenant -->
+        <test-method status="PASS" signature="verify_add_Arrays_To_Tenant()[pri:2, instance:TS_Users.TC_Add_Arrays_to_Tenant@cc285f4]" name="verify_add_Arrays_To_Tenant" duration-ms="542" started-at="2019-02-20T02:04:43Z" finished-at="2019-02-20T02:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_add_Arrays_To_Tenant -->
+        <test-method status="PASS" signature="delete_array_for_tenant()[pri:3, instance:TS_Users.TC_Add_Arrays_to_Tenant@cc285f4]" name="delete_array_for_tenant" duration-ms="608" started-at="2019-02-20T02:04:44Z" finished-at="2019-02-20T02:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_array_for_tenant -->
+        <test-method status="PASS" signature="delete_tenant()[pri:4, instance:TS_Users.TC_Add_Arrays_to_Tenant@cc285f4]" name="delete_tenant" duration-ms="647" started-at="2019-02-20T02:04:44Z" finished-at="2019-02-20T02:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_tenant -->
+      </class> <!-- TS_Users.TC_Add_Arrays_to_Tenant -->
+    </test> <!-- TC_Add_Arrays_to_Tenant -->
+    <test name="TC_Get_Current_Tenant" duration-ms="515" started-at="2019-02-20T02:04:45Z" finished-at="2019-02-20T02:04:46Z">
+      <class name="TS_Users.TC_Get_Current_Tenant">
+        <test-method status="PASS" signature="initialize_all_variables()[pri:0, instance:TS_Users.TC_Get_Current_Tenant@475530b9]" name="initialize_all_variables" is-config="true" duration-ms="616" started-at="2019-02-20T02:04:37Z" finished-at="2019-02-20T02:04:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize_all_variables -->
+        <test-method status="PASS" signature="verify_get_current_tenant_api()[pri:0, instance:TS_Users.TC_Get_Current_Tenant@475530b9]" name="verify_get_current_tenant_api" duration-ms="515" started-at="2019-02-20T02:04:45Z" finished-at="2019-02-20T02:04:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_get_current_tenant_api -->
+      </class> <!-- TS_Users.TC_Get_Current_Tenant -->
+    </test> <!-- TC_Get_Current_Tenant -->
+  </suite> <!-- TS_Users -->
+</testng-results>

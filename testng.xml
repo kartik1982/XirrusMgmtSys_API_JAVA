@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XMSC API Test suites">
+<listeners> 
+	<listener class-name="shared_libraries.listeners"/>
+	<listener class-name="shared_libraries.ExtentReporterNG"/>
+</listeners>
+  <suite-files>
+      <suite-file path="./TS_Tenants.xml"/>
+      <suite-file path="./TS_Users.xml"/>
+  </suite-files> <!-- Suite files -->
+</suite>

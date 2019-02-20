@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TS_Tenants">
+<listeners> 
+	<listener class-name="shared_libraries.listeners"/>
+	<listener class-name="shared_libraries.ExtentReporterNG"/>
+</listeners>
+  <test  name="TC_Add_Tenant">
+    <classes>
+      <class name="TS_Tenants.TC_Add_Tenant"/>
+    </classes>
+  </test>
+    <test  name="TC_Add_Arrays_to_Tenant">
+    <classes>
+      <class name="TS_Tenants.TC_Add_Arrays_to_Tenant"/>
+    </classes>
+  </test>
+  <test  name="TC_Get_Current_Tenant">
+    <classes>
+      <class name="TS_Tenants.TC_Get_Current_Tenant"/>
+    </classes>
+  </test> <!-- Profile Test cases -->
+</suite> <!-- Profile Test suite -->
