@@ -10,21 +10,26 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import testbase.TestBase;
+
+
+
 public class listeners implements ITestListener, ISuiteListener{
+	TestBase base = new TestBase();
 	String testResult;
 
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
-		testResult=null;
-
+		testResult=null;		
 		
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		testResult="PASS";		
+		testResult="PASS";
+		
 	}
 
 	@Override
@@ -50,24 +55,32 @@ public class listeners implements ITestListener, ISuiteListener{
 	@Override
 	public void onStart(ITestContext context) {
 		// TODO Auto-generated method stub
-
+		base.testcaseID=context.getName();
 	}
 
 	@Override
 	public void onFinish(ITestContext context) {
+		// TODO Auto-generated method stub
+		base.testcaseID=null;
+		try {
+			base.postTestResult(context.getSuite().getName(), context.getName(), testResult, context.getStartDate().getTime(), context.getEndDate().getTime());
+		} catch (IOException | ParseException | SQLException | ClassNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		
 	}
 
 	@Override
 	public void onStart(ISuite suite) {
 		// TODO Auto-generated method stub
-
+		base.testsuiteID=suite.getName();
 	}
 
 	@Override
 	public void onFinish(ISuite suite) {
 		// TODO Auto-generated method stub
-
+		base.testsuiteID=null;
 		
 	}
 
